@@ -1,0 +1,92 @@
+body{
+	background-color: #EAEAEA;
+	color:#555;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0;
+}
+
+#main-logo{
+	width: 80px;
+	display: block;
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 8px;
+}
+
+#main-header h5{
+	width: 30%;
+	margin: auto;
+	text-align: center;
+	font-size: 20px;
+	color: #2697d9;
+}
+ 
+#main-header p{
+	text-align: center;
+	font-size: 15px;
+	color: black;
+}
+
+#available-balance p{
+	text-align: center;
+	color: black;
+	font-size: 19px;
+}
+
+.main-form {
+	width: 300px;
+	margin: auto;
+	background-color:white;
+	padding:30px;
+	border-radius: 15px;
+	margin-bottom: 10px;
+	font-size: 12px;
+	color: #3C83F6;
+}
+
+.main-form div{
+	margin-bottom: 15px;
+}
+
+.main-form input{
+	width:100%;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+.main-form label{
+	display: block;
+	margin-bottom: 5px;
+}
+
+.main-form textarea{
+	width:100%;
+}
+.main-form button{
+	width: 100%;
+	padding: 10px;
+	border: none;
+	background-color:#3C83F6;
+	color: white;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+#back-home-link{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	padding-bottom: 20px;
+}
+
+#back-home-link:hover{
+	color:#2697d9;
+}
+
+#back-home-link:active{
+	color:red;
+}
+

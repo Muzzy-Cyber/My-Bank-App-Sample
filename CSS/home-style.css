@@ -1,0 +1,98 @@
+body{
+	background-color: #EAEAEA;
+	color:#555;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0;
+}
+
+
+
+
+#main-logo{
+	width: 50px;
+	margin: auto;
+	display: block;
+	margin-top: 15px;
+	padding-bottom: 5px;
+}
+
+#welcome-message{
+	font-size: 16px;
+	text-align: center;
+	padding-top: 1px;
+	color: black;
+}
+
+#balance{
+	width: 70%;
+	margin: auto;
+	background-color: #005AE2;
+	color: white;
+	padding: 13px 13px 30px 30px;
+	border-radius: 20px;
+}
+
+.white-background{
+	background-color: white;
+	width:30%;
+	margin: auto;
+	padding-bottom: 17px;
+	border-radius: 20px;
+	
+}
+
+#quick-action{
+	width: 30%;
+	margin: auto;
+	padding-top: 20px;
+}
+
+#quick-action p{
+	color: black;
+	text-align: center;
+}
+
+#quick-action a {
+    display: inline-block;
+    background-color: white;
+    color:#005AE2;
+    padding: 8px 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+#quick-action a:hover{
+	color: black;
+}
+
+#quick-action a:active{
+	color:#d99426;
+}
+
+
+#transactions{
+	width: 30%;
+	margin: auto;
+}
+
+#transactions h3{
+	color: #2697d9;
+}
+#transactions{
+	font-size:12px;
+	min-width: 400px;
+	color: black;
+}
+
+#transactions th,
+#transactions td {
+	padding: 8px 10px;
+}
+
+#transactions tr:nth-child(even){
+	backgroun: grey;
+
+}

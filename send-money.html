@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Send Money Moniepoint MFB</title>
+		<link rel="stylesheet" type="text/css" href="css/send-style.css">
+	</head>
+	<body>
+		<header id="main-header">
+			<div>
+				<img id="main-logo" src="Images/Monielogo.jpg" alt="Moniepoint Logo">
+			</div>
+
+			<h5>Transfer To Bank Account.</h5>
+
+			<p>Free tranfer for the day:3</p>
+		</header>
+
+		<section id="available-balance">
+			<p>Available Balance:<strong>#250,000.00</strong></p> <hr>
+
+		</section>
+
+		
+
+		<section class="main-form">
+			<form action="send-money.php" method="post">
+
+				<div>
+					<label>Recipient Account Number:</label>
+					<input type="text" name="recipient-account-number" placeholder="Enter account number">
+				</div>
+
+				<div>
+					<label>Recipient Name:</label>
+					<input type="text" name="recipient-name" placeholder="Enter recipient name">
+				</div>
+
+				<div>
+					<label>Amount:</label>
+					<input type="number" name="amount" placeholder="Enter amount">
+				</div>
+
+				<div>
+					<label>Description (Optional)</label>
+					 <textarea type="text" name="description" placeholder="What is this transaction for?"></textarea>
+				</div>
+
+				<div>
+					<button type="submit">Send Money</button>
+				</div>
+
+				
+			</form>
+		</section>
+		<div>
+			<a id="back-home-link" href="home.html">Back to home</a>
+		</div>
+	</body>
+</html>
